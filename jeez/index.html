@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    
+</head>
+<script type="text/javascript" src="main.js"></script>
+
+<style>
+    body
+    {
+        background-image: url('dungeon.jpg');
+        background-position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    button{
+        background-color: dimgrey;
+    }
+    button:hover{
+        background-color: #DC9F4B;  
+    }
+   
+</style>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header" style="background-color: beige; height:6em;width:30em;border-radius:12px">
+                <a class="navbar-brand" style="font-size: 4em; text-align:justify; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Dungeon Disaster</a>
+                </div>
+                </div>
+                </nav>
+                </br>
+    <div id="init">
+    <textarea style="margin-left:1000px;margin-bottom:-90px; width:350px;height:120px;font-weight:bold">You awake in a cell, no idea how you go there or why.A man sits across from you, decrepit, flesh hanging off him like a rotting corpse. The man opens his mouth and speaks, "the way out lies at the end of that corridor!, gathering my bearings i look beyond the captivity of my cell and see a narrow corridor, filled with what appears to be 3 infamous, ominous shapes made clearer by the silhouetee of the source of light radiating from beyond them. Take this sword my lad and strike down these ghastly beasts, and gain your freedom!</textarea>
+<button onClick="startGame()" style=" height: 70px; float:right; margin-right:260px;margin-left:20px; margin-top:290px; font-size:2em; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">PATH TO FREEDOM</button>
+</div>
+<h3 style="color: #501B1D; font-size:2.5em; font-family:fantasy">HUNTER</h3>
+<progress id="health" value="100" max="100" style="height:200px;width:40%">Player</progress>
+</br>
+<h3 style="color: #501B1D; font-size:2.5em;font-family:fantasy">BEAST</h3>
+<progress id="health1" value="100" max="100" style="height:200px;width:40%">Beast</progress>
+</body>
+</html>
