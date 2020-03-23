@@ -1,0 +1,72 @@
+body {
+  background-image: url("../dungeon.jpg");
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  background-color: dimgrey;
+  height: 83px;
+  font-size: 2em;
+  font-family: Verdana;
+  top: 400px;
+}
+
+button:hover {
+  background-color: #dc9f4b;
+}
+h3 {
+  color: #e2cd0e;
+  font-size: 2.5em;
+  font-family: fantasy;
+  border-color: #dc9f4b;
+}
+progress {
+  height: 100%;
+  width: 250px;
+}
+.navbar-header {
+  background-color: beige;
+  height: 6em;
+  width: 480px;
+  border-radius: 12px;
+}
+.navbar navbar-default {
+  top: 0;
+  left: 0;
+}
+.navbar-brand {
+  font-size: 4em;
+  text-align: justify;
+  font-family: Impact;
+}
+
+#init {
+  top: 160px;
+  left: 10px;
+  width: 200px;
+  position: absolute;
+}
+textarea {
+  position: absolute;
+  text-align: left;
+  justify-content: left;
+  font-weight: bold;
+
+  max-width: 300%;
+  height: 200px;
+  font-size: 1em;
+}
+#attack {
+  top: 450px;
+  left: 10px;
+  width: 328px;
+  height: 83px;
+  position: absolute;
+}
+#combat {
+  top: 520px;
+  position: absolute;
+  left: 10px;
+}
